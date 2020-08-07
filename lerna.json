@@ -3,6 +3,7 @@
     "packages/*"
   ],
   "version": "independent",
+  "npmClient": "yarn",
   "conventionalCommits": true,
   "changelogPreset": "angular"
 }

@@ -2,7 +2,14 @@
   "name": "goby",
   "description": "my code playground.",
   "private": true,
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": "eslint"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11"
   }
 }
