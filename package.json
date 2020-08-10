@@ -3,7 +3,8 @@
   "description": "my code playground.",
   "private": true,
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "lint": "eslint"
   },
   "lint-staged": {
     "**/*.js": "eslint"
